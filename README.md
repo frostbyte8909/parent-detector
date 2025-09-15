@@ -25,3 +25,10 @@ Buzzer:
   -ve->GND
 
 VCC:power delivery | GND:ground | D[x]:digital pin [x]
+
+Software setup:
+
+Bluetooth:
+  1. Connect to "HC-05" using bluetooth and either "1234" or "0000" as password
+  2. Open terminal (MacOS) and enter screen "/dev/ttyACM0 9600"
+  3. To exit, Control + A, K

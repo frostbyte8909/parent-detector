@@ -11,15 +11,17 @@ Modules required:
 
 Wiring:
 HC-SR04:
-  VCC->5V
-  trig->D9
-  echo->D10
-  GND->GND
+1. VCC->5V
+2. trig->D9
+3. echo->D10
+4. GND->GND
+  
 HC-05:
-  VCC->5V
-  GND->GND
-  TXD->D8
-  RXD->D7
+1. VCC->5V
+2. GND->GND
+3. TXD->D8
+4. RXD->D7
+  
 Buzzer:
   +ve->D6
   -ve->GND
